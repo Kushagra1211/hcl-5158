@@ -15,7 +15,7 @@ public class ExceptionHandling {
 
     // throws and throw
     static void withdraw(double balance, double amount)
-            throws InsufficientBalanceException {
+            throws InsufficientBalanceException {// throws is a way to transfer exception to other classes
 
         if (amount <= 0) {
             throw new IllegalArgumentException(
