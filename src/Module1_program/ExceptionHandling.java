@@ -5,7 +5,6 @@ import java.io.StringReader;
 import java.io.IOException;
 
 public class ExceptionHandling {
-
     // Custom Exception
     static class InsufficientBalanceException extends Exception {
         public InsufficientBalanceException(String message) {
